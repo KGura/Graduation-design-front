@@ -1,0 +1,20 @@
+.context-box-pay{
+    background: rgb(248, 248, 248);
+    overflow-y: scroll;
+    width: 100%;
+    max-height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.ant-table-tbody {
+    font-size: 19px;
+    text-align: center;
+}
+.ant-table button{
+    font-size: 15px;
+}
+.ant-table-thead{
+    font-size: 20px;
+    letter-spacing: 10px;       
+}

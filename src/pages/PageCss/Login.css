@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+background-repeat: no-repeat;
+}
+  /*引入图片时记得要添加面积*/
+  /*cover：使得图片按比例拉伸填充；100% 100%：直接把图片填充至上限，不按比例*/
+.reg-container{
+  background-image: url("../../assets/picture/siroko.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.reg-frame{
+  width: 750px;
+  height: 550px;
+  display:flex;
+  border-radius: 50px;
+  border:2px solid ivory;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+.reg-title-f{
+  margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.reg-title{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 1000;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 0;
+  letter-spacing: 3px;
+}
+.reg-title span{
+  font-size: 20px;
+  margin:50px 0 0 0;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.sign-btn{
+  background-color:rgb(0, 0, 0);
+  color: white;
+  border-radius: 100px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  width:98%;
+  font-weight: 1000;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;  
+}
+
+

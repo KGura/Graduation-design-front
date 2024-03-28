@@ -1,0 +1,21 @@
+.context-box-emer{
+    background: rgb(248, 248, 248);
+    width: 100%;
+    height:570px;
+    overflow-y: scroll;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.ant-collapse{
+    padding: 10px;
+    background: #bae0ff;
+    border: 20px;
+    border-radius: 5px;
+}
+.ant-collapse-item{
+    margin:20px 10px 20px 10px;
+    letter-spacing: 1px;
+    background: #f0f5ff;
+    border-radius: 10px;
+}

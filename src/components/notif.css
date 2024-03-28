@@ -1,0 +1,14 @@
+.right-box{
+    background-color: #88f1f6;
+    width: 350px;
+    height: 100%;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding:20px 20px 20px 15px;
+    float: left;
+    margin-right:-350px;
+}
+.right-box ul{
+  list-style: none;
+}

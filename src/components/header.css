@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #1890ff;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 40px;
+}
+.nav-links{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.nav-links li{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 38px;
+    text-decoration: none;
+    background-color: #91caff;
+}
+.nav-links li a{
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: rgb(255, 255, 255);
+}

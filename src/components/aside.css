@@ -1,0 +1,78 @@
+
+.left-aside{
+    width: 250px;
+    height:85vh;
+    padding:15px;   
+    float: left;
+    position: relative;
+    background: #DBF2F1;
+    border:2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px ;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 0 30px rgba(124, 117, 117, 0.05);
+    transition: 0.6s cubic-bezier(0.9,0.5,0.5,0.8);
+}
+/* 房号和账号名 */
+.left-aside .brand{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.left-aside .brand img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(230,235,240,.7);
+}
+.left-aside .brand p{
+    color: rgb(96, 96, 96);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+    margin:0 0 0 12px;
+}
+.left-aside .brand p span{
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+}
+/*账号和导航分割线*/
+.left-aside .line{
+    width: 100%;
+    height: 2px;
+    margin: 30px 0;
+    border-radius: 35%;
+    background: rgb(214, 214, 214);
+}
+/* 侧边栏列表 */
+.left-aside .list{
+    width: 100%;
+}
+.left-aside .list li{
+    display: flex;
+    margin:20px 0;
+    padding:30px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+.left-aside .list li:hover{
+    background:rgba(73, 74, 75, 0.7);
+}
+.left-aside .list li:hover span {
+    color: white;
+}
+.left-aside .list li:hover i{
+    color: white;
+}
+.left-aside .list i{
+    font-size: 18px;
+}
+.left-aside .list span{
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}

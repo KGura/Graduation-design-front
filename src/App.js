@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Login from "./pages/PageJs/Login";
+import SignUp from "./pages/PageJs/SignUp";
+import Home from "./pages/PageJs/Home"
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Maintain from "./pages/PageJs/Maintain";
+import PerCenter from "./pages/PageJs/PerCenter";
+import Feedback from "./pages/PageJs/Feedback";
+import Complain from "./pages/PageJs/Complain";
+import Pay from "./pages/PageJs/Pay";
+import Emergency from "./pages/PageJs/Emergency";
+import UserRouter from "./pages/UserRouter";
+import AdminRouter from "./admin/AdminRouter"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <UserRouter/>
+    <AdminRouter/>
+    </>
+      );
 }
 
 export default App;
